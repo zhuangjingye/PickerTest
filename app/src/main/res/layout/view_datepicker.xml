@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <pi.cn.com.pickertest.PickerView
+            android:layout_weight="1"
+            android:id="@+id/year_pv"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+        <pi.cn.com.pickertest.PickerView
+            android:layout_weight="1"
+            android:id="@+id/month_pv"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />
+        <pi.cn.com.pickertest.PickerView
+            android:layout_weight="1"
+            android:id="@+id/day_pv"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />
+    </LinearLayout>
+
+</LinearLayout>
